@@ -71,7 +71,7 @@ public class Security {
         return purchaseDate;
     }
 
-    public void setPurchaseDate(String name) { this.purchaseDate = purchaseDate; }
+    public void setPurchaseDate(String purchaseDate) { this.purchaseDate = purchaseDate; }
 
     public Integer getQuantity() {
         return quantity;

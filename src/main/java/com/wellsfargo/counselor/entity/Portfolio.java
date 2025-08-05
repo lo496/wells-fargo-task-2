@@ -14,7 +14,7 @@ public class Portfolio {
     private long clientId;
 
     @Column(nullable = false)
-    private String creationDate; // Should a better type for dates be used?
+    private String creationDate; // I'm not sure if there is a better type for dates that I should use here
 
     protected Portfolio() {
 
